@@ -56,6 +56,7 @@ if(isset($_POST["submit"])) {
     } else {
         $errorFileUpload.="Select an image.";
     }
+
 }
 ?>
 
@@ -83,6 +84,7 @@ if(isset($_POST["submit"])) {
             <div class=" text-danger"><?=$errorFileUpload?><br></div>
         </div>
         <input type="submit" name="submit" value="add" class="btn btn-primary">
+        <a href="read.php"><button type="button" class="btn">Go back</button></a>
     </form>
 </div>
 </body>
