@@ -56,7 +56,7 @@ if(isset($_POST["submit"])) {
     } else {
         $errorFileUpload.="Select an image.";
     }
-
+     
 }
 ?>
 
